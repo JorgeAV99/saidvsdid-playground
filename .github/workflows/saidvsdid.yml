@@ -17,3 +17,6 @@ jobs:
         with:
           fetch-depth: 0
       - uses: JorgeAV99/saidvsdid@6e184a8ff14a5bcc607f4b3440055a56d54435c5 # v0.2.0
+      - if: always()
+        shell: bash
+        run: cat "$RUNNER_TEMP"/_runner_file_commands/step_summary_* || true
