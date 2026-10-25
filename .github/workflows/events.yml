@@ -24,3 +24,6 @@ jobs:
         id: sv
       - if: always()
         run: echo "verdict=${{ steps.sv.outputs.verdict }} exit=${{ steps.sv.outputs.exit-code }} url=${{ steps.sv.outputs.comment-url }}"
+      - if: always()
+        shell: bash
+        run: cat "$RUNNER_TEMP"/_runner_file_commands/step_summary_* || true
