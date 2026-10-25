@@ -1,0 +1,5 @@
+{
+  "name": "calc-bun",
+  "private": true,
+  "scripts": { "test": "bun test" }
+}
