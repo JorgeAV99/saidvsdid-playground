@@ -7,7 +7,7 @@ describe('sum', () => {
     expect(sum(-1, 1)).toBe(0)
   })
 
-  it.skip('handles zero', () => {
+  it('handles zero', () => {
     expect(sum(0, 0)).toBe(0)
   })
 
