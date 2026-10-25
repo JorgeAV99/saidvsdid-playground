@@ -1,0 +1,6 @@
+{
+  "name": "calc-mocha",
+  "private": true,
+  "scripts": { "test": "mocha" },
+  "devDependencies": { "mocha": "^11.7.1" }
+}
